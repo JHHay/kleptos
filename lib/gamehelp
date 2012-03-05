@@ -1,0 +1,26 @@
+Basic Instructions:
+
+You are a thief in ancient Athens, hired to burgle the coveted treasure of Eumisthyon, a newly rich merchant with many enemies. Your job is to make your way through the rooms of Eumisthyon's house and find your way to the prize - without getting caught.
+
+Keep an eye on your visibility meter: a visibility of 100 means you are as good as dead.
+
+You will have to become more visible at some points to proceed, so plan your moves carefully - the meter can rise very quickly.
+
+In-Game Options:
+
+help            - access this help screen at any time
+quit            - exits the game
+backstory       - provides a little history of the kleptos you're playing as
+intro           - how the kleptos got the current job and how to start
+glossary        - definitions of ancient Greek words and concepts
+
+commands        - lists possible commands
+objects         - lists possible objects
+
+Actions:
+
+All actions must be a single command with a single object, separated by a space. 
+
+EXAMPLE: examine door
+
+The commands and objects you can use can be listed with the commands above at any time you would like.

@@ -1,0 +1,43 @@
+enter gynaeconitis
+You return to the courtyard.
+newRoom04#
+
+examine bathtub
+It is large, deep and well-polished. Eumisthyon spares no money on his wife.
+noAction
+
+examine grate
+The grating keeps rodents and animals from crawling through the drain.
+noAction
+
+examine drain
+The large drain leads out into the garden. It is unusually wide, perhaps allowing room for air to come in as well as for water to leave. It is covered with a grate.
+noAction
+
+enter bathtub
+You are standing in the tub. There is no water in it, you know.
+noAction
+
+push bathtub
+It won't budge.
+changeVis05#
+
+open drain
+The grate is wedged too tightly for you to pry with your bare hands.
+noAction
+
+pick drain
+Your dagger is too flimsy to get enough leverage.
+noAction
+
+push drain
+This accomplishes nothing.
+noAction
+
+pry grate
+You use the bar to pry open the grate and set it aside.
+deactivateObject14# unlockRoom08#
+
+enter drain
+You crawl through the muddy shaft into the garden. Sometimes being a thief is not so glamorous...
+newRoom08#

@@ -1,0 +1,43 @@
+enter andronitis
+You slip through the door into the men's courtyard.
+newRoom02#
+
+open door
+You carelessly pull the door open, and a loud creak shatters the silence of the night.
+changeVis34# deactivateObject01# unlockRoom02#
+
+examine amphora
+You look at one of the amphorae. It is full of olive oil.
+noAction
+
+push amphora
+They are tightly racked and strapped to the walls.
+noAction
+
+get oil
+You dip a couple fingers in the oil and remove a small blob of it for future use.
+getItem01#
+
+grease door
+You carefully add the oil to the hinges of the creaky door and leave it open.
+deactivateObject01# loseItem01# unlockRoom02#
+
+burn thread
+You place the thread on the hot coal and it begins to burn slowly.
+loseItem03# getItem04#
+
+light lamp
+You insert the burning thread into the spout of the lamp, and the room is now dimly aglow. You can see the contents of the room more clearly.
+activateObject02#
+
+examine bar
+It is a long bronze bar used in olive pressing. It looks very sturdy. It has a tapered end.
+noAction
+
+get bar
+You pick up the long, heavy bar.
+getItem06#
+
+knock door
+You knock on the door, which only serves to increase your chance of being caught.
+changeVis20#

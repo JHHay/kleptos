@@ -1,0 +1,27 @@
+enter gynaeconitis
+You walk out into the courtyard.
+newRoom04#
+
+examine dishes
+You examine the piles of dishes carefully. The only item you can justify carrying around with you in the dark is a small cup.
+activateObject10#
+
+examine jar
+You peer into the jar and find a hefty chunk of cheese. Smells ripe and delicious.
+activateObject11#
+
+get cup
+You pick up the small cup
+deactivateObject10# getItem08#
+
+get cheese
+You grab the cheese
+deactivateObject11# getItem09#
+
+examine tables
+They are short, clean and sturdy.
+noAction
+
+enter andron
+You walk back into the dining room.
+newRoom03#

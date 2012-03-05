@@ -1,0 +1,15 @@
+examine wall
+A brick wall leads up to the window of the Thalamos. A dog is chained to a tree at the bottom, blocking the path. It is awake and staring at you.
+noAction
+
+pick dog
+You attempt to dispatch the guard dog with your dagger, but you only anger it. It bites your arm, and barks furiously.
+changeVis90#
+
+feed dog
+You give the cheese to the dog, and it takes it behind the tree to enjoy.
+deactivateObject15# loseItem09# unlockRoom09#
+
+climb wall
+You use the distaffs to dig into the spaces between the bricks as you use the tree branches to gain footholds. You make your way into the window.
+newRoom09#

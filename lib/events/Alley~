@@ -1,0 +1,31 @@
+examine door
+The door seems to be locked from the inside.
+noAction
+
+examine alley
+The alley is clean and devoid of people.
+noAction
+
+push door
+You push the door, making a loud rattling noise.
+changeVis10#
+
+pick door
+You try to insert your dagger in the doorframe. It doesn't work, and you end up making some noise.
+changeVis05#
+
+enter house
+You enter the door.
+newRoom01#
+
+knock door
+You wrap quietly, and a hand is thrust out from a panel in the door.
+activateObject00# changeVis01#
+
+examine hand
+You can't be sure, but it probably belongs to the slave, Themo.
+noAction
+
+pay hand
+You spit out the coins, wipe them on your exomis, and give them to the outstretched hand. The hand disappears and the door creaks slowly open.
+unlockRoom01# loseItem00# deactivateObject00# deactivateObject01#

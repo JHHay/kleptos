@@ -1,0 +1,27 @@
+enter gynaeconitis
+You return to the courtyard.
+newRoom04#
+
+examine spool
+You look at the most accessible spool. It is a long spool of thread, dyed a nice mustard hue.
+noAction
+
+cut spool
+You cut off a portion of thread from the spool and take it with you.
+getItem03#
+
+examine distaffs
+A thin wooden pole used for spinning thread. They look handy, and you wonder if they could be used for something else...
+noAction
+
+get distaffs
+You pick up a pair distaffs.
+getItem10# deactivateObject13#
+
+examine looms
+There seem to be garments in progress on the two, brand-new looms Eumisthyon has bought for his household.
+noAction
+
+push looms
+You try to work the looms but soon realize you cannot weave.
+changeVis01#

@@ -1,0 +1,55 @@
+examine statue
+The statue is an altar adorned with flowers, a dish for incense and a small lamp.
+changeVis05#
+
+get flowers
+You don't want any flowers.
+changeVis05#
+
+get incense
+You can't think of any reason to pick up the incense.
+changeVis05#
+
+examine incense
+Some myrrh sits in a dish for small burnt offerings.
+changeVis03#
+
+get lamp
+You pick up the lamp. It is full of oil.
+getItem02# deactivateObject05# changeVis05#
+
+enter andron
+You walk up the short stairway and enter the open doors of the Andron.
+newRoom03#
+
+examine doors
+You carefully listen at the entrance of each door. You notice that five of them are filled with the deep breathing of sleeping men, but one is empty.
+activateObject03# changeVis08#
+
+enter empty_room
+You gently push the door open to the empty room. It is a shallow closet that serves as a kind of workshop. You notice a small pair of wooden shears.
+activateObject04# changeVis08#
+
+get shears
+You pick up the shears
+deactivateObject04# getItem07# changeVis05#
+
+cut flowers
+You cut the tops off the flowers with the shears.
+changeVis05#
+
+knock doors
+You knock on several of the doors. Several of them open, and out come Eumisthyon's male slaves and teenage sons, ready to capture you.
+changeVis99#
+
+enter storeroom
+You return through the open door into the store room.
+newRoom01#
+
+burn thread
+You place the thread on the hot coal and it begins to burn slowly.
+loseItem03# getItem04# changeVis10#
+
+light lamp
+You insert the burning thread into the spout of the lamp, and the courtyard is now dimly aglow. You wonder if the men can see the lamp...
+activateObject02# changeVis30#

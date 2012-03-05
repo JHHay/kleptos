@@ -1,0 +1,55 @@
+examine wall
+A brick wall leads up to the window of the Thalamos. A dog is chained to a tree at the bottom, blocking the path. She is awake and staring at you.
+noAction
+
+pick dog
+You attempt to dispatch the guard dog with your dagger, but you only anger her. She bites your arm and barks furiously.
+changeVis99#
+
+feed dog
+You give the cheese to the dog, and she takes it behind the tree to enjoy.
+deactivateObject15# loseItem09# unlockRoom09#
+
+push dog
+You try to shove the dog against the tree. She is a strong creature, however, and forces you back with her jaws. Her barks echo along the garden walls, reaching the bedrooms above.
+changeVis99#
+
+pry dog
+You attempt to use the pry bar on the dog. Sadly, she is too nimble for you, and she begins barking like mad.
+changeVis99#
+
+burn dog
+You try to hit the dog with the burning coal, but she is startled and gets out of the way just in time.
+changeVis99#
+
+knock dog
+You attempt to punch the dog, but she ends up gripping your fist with her jaws. When you get away from her, she has already alerted the house of your presence.
+changeVis99#
+
+climb wall
+You use the distaffs to dig into the spaces between the bricks as you use the tree trunk to support your feet. You make your way into the window.
+newRoom09#
+
+enter drain
+You slowly and carefully crawl back into the drain.
+newRoom07#
+
+examine plants
+Luxuriously fruiting plants create a welcoe oasis on the craggy hills of Athens.
+noAction
+
+examine tree
+It is sturdy, straight and tall. Too bad it does not provide any good hand grips.
+noAction
+
+climb tree
+The tree itself is too straight and broad to climb.
+noAction
+
+examine window
+The open window is almost inviting you to enter.
+noAction
+
+enter window
+You'll need to climb up there first.
+noAction

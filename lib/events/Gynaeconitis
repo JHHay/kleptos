@@ -1,0 +1,51 @@
+examine ornate_door
+The ornate door leads into the andron. It is barred.
+noAction
+
+open ornate_door
+You already have a safe route back to the andron. Best not to tamper with anything without a pressing need.
+noAction
+
+enter kitchen
+You enter the kitchen.
+newRoom05#
+
+enter workroom
+You enter the workroom.
+newRoom06#
+
+enter bathroom
+You enter the bathroom.
+newRoom07#
+
+examine painted_door
+You peer past the door. This passage leads to the garden behind the house. The door is locked with an intricate tumbler.
+noAction
+
+pick painted_door
+You give it a few tries, but you can't pick this lock.
+changeVis05#
+
+open painted_door
+This door is locked.
+changeVis05#
+
+push painted_door
+It will not give.
+changeVis05#
+
+examine stairway
+You quietly climb the steps and put your ear to the door. The room is full of sleeping people. Best to find another route.
+changeVis05#
+
+examine doors
+All the rooms are occupied by their sleeping inhabitants.
+changeVis05#
+
+burn thread
+You place the thread on the hot coal and it begins to burn slowly.
+loseItem03# getItem04#
+
+light lamp
+You insert the burning thread into the spout of the lamp, and the room is now dimly aglow. You wonder if the light is exposing you too much out here...
+activateObject02# changeVis10#

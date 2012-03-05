@@ -1,0 +1,35 @@
+enter window
+No turning back now!
+changeVis10#
+
+examine bed
+The tall, fluffy bed stands a good distance above the timbers of the floor.
+changeVis10#
+
+examine wife
+She seems to be out cold.
+changeVis20#
+
+examine floor
+There is a strange form on the floor under the bed.
+changeVis10#
+
+examine form
+It looks like a thin panel for a hidden compartment.
+changeVis10#
+
+examine panel
+It looks like you could easily pry it open.
+changeVis10#
+
+pry panel
+You use the bar to pry open the panel. There was less room to do this than you had expected. CLUNK! You hit the bottom of the bed, and you hear Eumisthyon's wife awaken with a shriek.
+changeVis99#
+
+pick panel
+You decide to carefully stickthe point of your dagger into the wooden panel, giving you a good, solid grip. It lifts silently, and you put it aside. A plump leather bag sits in the small compartment.
+deactivateObject16# activateObject17#
+
+get bag
+You reach for the bag and feel the weight of Eumisthyon's riches hidden within...
+win

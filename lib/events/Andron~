@@ -1,0 +1,79 @@
+examine brazier
+You poke around in the metal brazier that serves as altar to Hestia. You discover a few live coals buried in the ashes.
+activateObject06#
+
+examine mosaic
+Eumisthyon certainly enjoys maritime imagery. Does it perhaps reflect how he made his fortune?
+noAction
+
+examine tables
+The low tables are placed next to the couches, so guests would be able to reach their food without getting up.
+noAction
+
+examine trays
+The trays are in a neat stack at the back of the room. Slaves probably use these to carry in food from the kitchen.
+noAction
+
+pick couches
+Why not? Tear the place up a little bit.
+changeVis02#
+
+push tables
+You gleefully knock over a table or two. Why, I have no idea.
+changeVis70#
+
+push trays
+With mischievous fury in your eyes, you push over the pile of trays. I'd be surprised if the household wasn't aware of you now.
+changeVis89#
+
+examine small_door
+The door is locked with a thin rope. The knot is on the other side, so you can't untie it.
+noAction
+
+open small_door
+The door is tied shut with a rope.
+noAction
+
+push small_door
+You test the strength of the door's rope. It holds.
+changeVis05#
+
+get coal
+It is too hot to pick up with your bare hands!
+noAction
+
+scoop coal
+You scoop up the coal with the cup. The two form a simple lighter that you can carry around.
+loseItem08# getItem05# deactivateObject06#
+
+examine ornate_door
+A beautiful ornate door leads into the inner quarters of the house.
+noAction
+
+open ornate_door
+It seems to be barred from the other side.
+noAction
+
+push ornate_door
+You give the beautiful door a big old shove. It still won't open.
+changeVis05#
+
+cut rope
+You slice the rope open with your shears and carefully push the small door open.
+ TherdeactivateObject08# deactivateObject09# unlockRoom04#
+
+push brazier
+The heavy brazier doesn't budge.
+noAction
+
+enter kitchen
+You pass through the slaves' doorway into the kitchen.
+newRoom05#
+
+enter andronitis
+You retrace your steps into the Andronitis.
+newRoom02#
+
+examine couches
+The many couches arranged along the walls of the room look quite comfortable. Eumisthyon must hold many symposia in this room.
+noAction
